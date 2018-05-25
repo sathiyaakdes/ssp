@@ -1,7 +1,7 @@
 n=int(input("Enter number: "))
-rev=0
+reve=0
 while(n>0):
-    dig=n%10
-    rev=rev*10+dig
+    digi=n%10
+    reve=reve*10+digi
     n=n//10
-print("Reverse of the number:",rev)
+print("Reverse of the number:",reve)
